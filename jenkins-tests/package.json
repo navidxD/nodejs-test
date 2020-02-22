@@ -1,7 +1,7 @@
 {
   "name": "jenkins-tests",
   "version": "1.0.1",
-  "description": "",
+  "description": "esto es una prueba",
   "main": "index.js",
   "directories": {
     "test": "tests"
