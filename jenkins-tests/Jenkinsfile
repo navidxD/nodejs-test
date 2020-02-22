@@ -21,7 +21,7 @@ pipeline {
     }
     stage('run remote') {
         steps {
-            build job: 'parameters', parameters: [string(name: 'ROOT_ID', value: '$BUILD_ID')], wait: false
+            build job: 'parameters', parameters: [string(name: 'ROOT_ID', value: '$BUILD_ID')], wait: true
         }
     }
   }
